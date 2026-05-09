@@ -1,0 +1,147 @@
+/* @author sadie walker */
+@media only screen and (max-width: 2024px) {
+    #mobile_menu {display: none;}
+    #nav_menu {display: flex;}
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 959px) {
+    #mobile_menu {display: none;}
+    #nav_menu {display: flex;}
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #mobile_menu {display: block;}
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }
+    header h3 { font-size: .8125em; }
+    p { font-size: 875em; }
+    article h1, main h2, aside h2
+    { font-size: 1em; }
+    aside li { font-size: .875em; }
+}
+@media only screen and (max-width: 479px) {
+    #mobile_menu {display: block;}
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }
+    header h3 { font-size: .8125em; }
+    p { font-size: 875em; }
+    article h1, main h2, aside h2
+    { font-size: 1em; }
+    aside li { font-size: .875em; }   
+}
+/*font embed*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+/*style for body*/
+body {
+    width: 90%;
+    background-color:rgb(192, 206, 173);
+    margin: 10px auto;
+}
+main {
+    width: 50%;
+    height: 500px;
+    background-color:rgb(255, 255, 255);
+    float: left;
+}
+aside {
+    width: 50%;
+    height: 500px;
+    background-color:azure;
+    float: left;
+}
+h1, h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p {
+    font-size: 1.125em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer {
+    clear: both;
+}
+ul {
+    padding-left: 10px;
+}
+li {
+    padding-left: 10px;
+}
+.first {    /*interests page list items*/
+    padding-left: 15px;
+}
+.roundcorners img {
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    position: relative;
+    right: 10px;
+    left: 10px;
+}
+#nav_menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #30301d;
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 15px;
+    text-align: center;
+}
+#nav_menu ul li a {
+    font-weight: bold;
+    color: #ffffff;}
+#nav_menu ul li a.current {
+    text-decoration: none; 
+}
+figure, figcaption {
+    padding: 0;
+}
+figure {
+    border: 1px solid black;
+    width: 470px;
+    padding: 15px;
+}
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+}
+label {
+    width: 5em;
+    text-align: right;
+}
+input, select {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
